@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DependencyInjectionPattern.Concrete.DestinationAddress">
+    <Position X="7" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAIAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Concrete\DestinationAddress .cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.967" />
+  </Class>
+  <Class Name="DependencyInjectionPattern.Concrete.UserAddress">
+    <Position X="9.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAIAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Concrete\UserAddress .cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DependencyInjectionPattern.Concrete.DistanceCalculator">
+    <Position X="3.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAACAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Concrete\DistanceCalculator.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_userAddress" />
+      <Field Name="_destinationAddress" />
+    </ShowAsAssociation>
+  </Class>
+  <Interface Name="DependencyInjectionPattern.Interface.IAddress">
+    <Position X="8" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\IAddress.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
